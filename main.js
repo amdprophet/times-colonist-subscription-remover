@@ -5,7 +5,7 @@ $(document).ready(function() {
 
   var observer = new MutationObserver(function(mutations, observer) {
     $('div[style]').each(function() {
-      if ($(this).css('background-image') == 'url(data:image/png;base64,'+background_base64+')') {
+      if ($(this).css('background-image') == 'url("data:image/png;base64,'+background_base64+'")') {
         $(this).remove();
       }
     });
