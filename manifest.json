@@ -1,6 +1,6 @@
 {
   "name": "Times Colonist Subscription Remover",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "description": "Removes the subscription pop-up from the Times Colonist website.",
   "homepage_url": "http://github.com/amdprophet/times-colonist-subscription-remover",
